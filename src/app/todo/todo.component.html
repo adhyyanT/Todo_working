@@ -1,0 +1,7 @@
+<app-todo-header></app-todo-header>
+<mat-card class="todo-body">
+    <app-todo-input></app-todo-input>
+    <mat-card class="todo-list" *ngIf="todoList.length > 0">
+        <app-todo-list></app-todo-list>
+    </mat-card>
+</mat-card>

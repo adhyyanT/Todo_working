@@ -1,0 +1,25 @@
+app-todo-header {
+    margin-bottom: 2rem;
+}
+
+.todo-body {
+    height: 80vh;
+    width: 60%;
+    margin: 1rem auto;
+}
+
+app-todo-input {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.todo-list {
+    margin:0 auto; 
+    margin-top: 1em;
+    width: 70%;
+}
+
+mat-card{
+    overflow: scroll;
+}
